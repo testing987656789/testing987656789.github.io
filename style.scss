@@ -1,0 +1,35 @@
+---
+---
+
+@import url(https://fonts.googleapis.com/css?family=Biryani:200,400);
+
+body {
+  margin: 1rem;
+  font-family: 'Biryani', sans-serif;
+
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+header {
+  height: 70vh;
+  max-height: 30rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  background: linear-gradient(to bottom, #1e5799 0%,#2989d8 50%,#7db9e8 100%);
+  margin: 2rem 0;
+}
+
+h1 {
+  color: #fff;
+  font-weight: 200;
+}
+
+p {
+  font-weight: 400;
+}
